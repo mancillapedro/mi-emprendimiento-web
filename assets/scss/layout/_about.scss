@@ -1,0 +1,36 @@
+.about {
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >*{
+            margin: .25rem 0;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 80%;
+        border: 1px solid $black;
+        border-radius: 50%;
+
+        @include breakpoint($bp-md) {
+            width: 25%;
+        }
+    }
+
+    &__rrss {
+        display: flex;
+        gap: 1rem;
+
+        * {
+            color: $sable;
+        }
+    }
+
+    &__text {
+        padding: 1rem 0;
+        text-align: justify;
+    }
+}

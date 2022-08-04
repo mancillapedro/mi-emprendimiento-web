@@ -1,0 +1,8 @@
+input{
+    border: 2px inset rgba($black, .5);
+    border-radius: 4px;
+    padding: .25rem .25rem;
+    &:focus{
+        background-color: $tangerine;
+    }
+}

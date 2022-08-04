@@ -1,0 +1,42 @@
+.navbar {
+    background-color: $sable;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem;
+    position: sticky;
+    top:0;
+
+    &-brand>img {
+        max-height: 40px;
+        display: block;
+    }
+
+    &-collapse {
+        display: none;
+    }
+
+    &-nav {
+        display: flex;
+
+        >li>a {
+            padding-left: 2rem;
+            color: white;
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+
+    @include breakpoint($bp-md) {
+        padding: .75rem 2.5rem;
+
+        &-collapse {
+            display: block;
+        }
+
+        &-toggle {
+            display: none;
+        }
+    }
+}

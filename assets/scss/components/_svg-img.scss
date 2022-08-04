@@ -1,0 +1,21 @@
+.svg-img {
+    text-align: center;
+
+    svg {
+        width: 80%;
+
+        @include breakpoint($bp-md) {
+            width: 30%;
+        }
+    }
+}
+
+#code{
+    animation: desplazar 2s linear infinite alternate;
+    
+}
+
+#engranaje{
+    transform-origin: 80% 80%;
+    animation: rotar 3s linear infinite;
+}

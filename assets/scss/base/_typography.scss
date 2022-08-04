@@ -1,0 +1,28 @@
+body {
+    font-family: $ubuntu;
+    line-height: 1.5;
+}
+
+.about__title,
+.courses,
+.navbar,
+.footer {
+    font-family: $poppins;
+}
+
+.navbar {
+    font-weight: $bold;
+}
+
+h1,
+h2,
+h3,
+h6 {
+    font-size: $large;
+}
+
+.info {
+    p {
+        font-size: $small;
+    }
+}

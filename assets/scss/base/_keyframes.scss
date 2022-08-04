@@ -1,0 +1,10 @@
+@keyframes desplazar{
+    100%{
+        transform: translateX(8.5rem);
+    }
+}
+@keyframes rotar {
+    100%{
+        rotate: 360deg;
+    }
+}
